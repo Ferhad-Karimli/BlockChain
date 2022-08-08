@@ -32,10 +32,12 @@ console.log(bitcoin.hashBlock(previousBlockHash,currentBlockData,36656),"hash")
 // finding out  proof of work
 
 console.log(bitcoin.proofOfWork(previousBlockHash,currentBlockData),"proof of work")
+
 const nonce = 100
 
 
 // random hash
+
 console.log(bitcoin.hashBlock(previousBlockHash,currentBlockData,nonce),'random hash')
 
 bitcoin.createNewBlock (2389 ,'788478hd','sjksddsd')
@@ -50,4 +52,3 @@ bitcoin.createNewTransaction(125,'yruaasrufbfff','yydhdjsaassndbbs')
 bitcoin.createNewBlock (238989 ,'78847kkss8hd','sjksdaadsd')
 
 
-// console.log(bitcoin)
